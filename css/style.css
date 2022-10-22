@@ -107,7 +107,7 @@ ul {
     color: #692340;
     font-weight: 700;
     font-size: 24px;
-    padding-top: 10px;
+   
 }
 
 .community__card-text {
@@ -116,7 +116,7 @@ ul {
     color: #692340;
     font-weight: 700;
     font-size: 27px;
-    padding-top: 10px;
+   
 }
 
 .community__card-texts {
@@ -125,7 +125,7 @@ ul {
     color: #692340;
     font-weight: 400;
     font-size: 18px;
-    padding-top: 10px;
+   
 }
 
 .community__card {
@@ -172,7 +172,9 @@ ul {
     text-align: center;
 }
 .community__card-titles {
-    
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
 }
 
 /* community end */
